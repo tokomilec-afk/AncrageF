@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ancrageclub.com/sitemap.xml
