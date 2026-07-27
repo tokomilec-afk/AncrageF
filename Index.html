@@ -1,0 +1,1514 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancrage — Santé mentale des hommes au Canada | Chat, respiration, ressources gratuites</title>
+    <meta name="description" content="Ancrage : espace gratuit et anonyme pour la santé mentale des hommes au Canada — chat privé, respiration guidée, défis quotidiens, livres, jeux et communauté.">
+    <meta name="theme-color" content="#0a1128">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 26'%3E%3Ccircle cx='11' cy='13' r='10' fill='%231c140f'/%3E%3Ccircle cx='19' cy='13' r='10' fill='%23d1793d' style='mix-blend-mode:multiply'/%3E%3C/svg%3E">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ancrageclub.com/">
+    <meta property="og:title" content="Ancrage — Santé mentale des hommes au Canada">
+    <meta property="og:description" content="Chat privé anonyme, respiration guidée, défis quotidiens, livres gratuits, jeux et mur créatif. Un espace fait pour les hommes, partout au Canada et ailleurs.">
+    <meta property="og:image" content="https://ancrageclub.com/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="fr_CA">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ancrage — Santé mentale des hommes au Canada">
+    <meta name="twitter:description" content="Chat privé anonyme, respiration guidée, défis quotidiens, livres gratuits et jeux. Fait pour les hommes, partout au Canada.">
+    <meta name="twitter:image" content="https://ancrageclub.com/og-image.png">
+    <link rel="canonical" href="https://ancrageclub.com/">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Ancrage",
+            "url": "https://ancrageclub.com/",
+            "description": "Un espace gratuit et anonyme pour la santé mentale des hommes : chat privé, salon commun, respiration guidée, défis quotidiens, livres gratuits, jeux et mur créatif collectif.",
+            "inLanguage": ["fr-CA", "en"],
+            "audience": { "@type": "Audience", "audienceType": "Hommes" },
+            "sameAs": ["https://www.instagram.com/ancrage.club"]
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #0a1128;
+            --bg-dark-2: #131c3f;
+            --bg-light: #eef3fb;
+            --bg-light-2: #dbe6f7;
+            --blue: #3d6fd1;
+            --blue-soft: #7ea3e8;
+            --cyan: #5fa8c9;
+            --cyan-deep: #345f78;
+            --text-light: #eef1f8;
+            --text-dim: #aebde0;
+            --text-dark: #131b33;
+            --text-dark-dim: #4c5a7a;
+            --orange: #e8b23d;
+            --orange-deep: #b3841e;
+            --orange-light: #f5d17a;
+            --radius: 14px;
+            --maxw: 1120px;
+        }
+        * { box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            margin: 0;
+            background: linear-gradient(180deg, #060d24 0%, #0a1128 12%, #131c3f 30%, #0d1733 55%, #0a1128 80%, #060d24 100%);
+            color: var(--text-light);
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            position: relative;
+        }
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            pointer-events: none;
+            opacity: .55;
+            mix-blend-mode: screen;
+            background-image: radial-gradient(1.4px 1.4px at 6% 8%, #f5d17a 100%, transparent),
+                radial-gradient(1px 1px at 18% 24%, #fff 100%, transparent),
+                radial-gradient(1.6px 1.6px at 32% 4%, #f5d17a 100%, transparent),
+                radial-gradient(1px 1px at 46% 34%, #fff 100%, transparent),
+                radial-gradient(1.3px 1.3px at 60% 14%, #fff 100%, transparent),
+                radial-gradient(1px 1px at 74% 40%, #f5d17a 100%, transparent),
+                radial-gradient(1.5px 1.5px at 88% 6%, #fff 100%, transparent),
+                radial-gradient(1px 1px at 10% 55%, #f5d17a 100%, transparent),
+                radial-gradient(1.4px 1.4px at 26% 68%, #fff 100%, transparent),
+                radial-gradient(1px 1px at 42% 80%, #f5d17a 100%, transparent),
+                radial-gradient(1.6px 1.6px at 58% 60%, #fff 100%, transparent),
+                radial-gradient(1px 1px at 70% 88%, #fff 100%, transparent),
+                radial-gradient(1.4px 1.4px at 84% 72%, #f5d17a 100%, transparent),
+                radial-gradient(1px 1px at 95% 48%, #fff 100%, transparent),
+                radial-gradient(1.3px 1.3px at 4% 92%, #fff 100%, transparent),
+                radial-gradient(1px 1px at 52% 96%, #f5d17a 100%, transparent);
+            background-repeat: repeat;
+            background-size: 900px 1300px;
+        }
+        body > * { position: relative; z-index: 1; }
+        h1, h2, h3, h4 { font-family: 'Fraunces', serif; font-weight: 600; margin: 0 0 .5em 0; letter-spacing: -0.01em; }
+        a { color: inherit; }
+        img { max-width: 100%; display: block; }
+        .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 24px; }
+        .wrap-wide { max-width: 1900px; }
+        ::selection { background: var(--blue); color: #fff; }
+        :focus-visible { outline: 2px solid var(--blue-soft); outline-offset: 3px; }
+        .scroll-progress { position: fixed; top: 0; left: 0; height: 3px; width: 0%; z-index: 300; background: linear-gradient(90deg, var(--orange) 0%, #ffd166 50%, var(--blue) 100%); transition: width .12s linear; }
+        .ambient-toggle {
+            position: fixed; right: 22px; bottom: 22px; z-index: 250;
+            width: 54px; height: 54px; border-radius: 50%;
+            background: radial-gradient(circle at 35% 30%, #2a3a63 0%, #10162c 75%);
+            border: 1px solid rgba(232,200,115,0.45);
+            display: flex; align-items: center; justify-content: center;
+            cursor: pointer; box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+            transition: transform .2s ease, box-shadow .3s ease;
+        }
+        .ambient-toggle:hover { transform: translateY(-2px); }
+        .ambient-icon { font-size: 1.3rem; color: #e8c873; transition: color .3s ease; }
+        .ambient-toggle.playing { box-shadow: 0 0 0 0 rgba(232,200,115,0.5), 0 8px 24px rgba(0,0,0,0.35); animation: ambientPulse 2.6s ease-in-out infinite; }
+        .ambient-toggle.playing .ambient-icon { color: #fff; }
+        @keyframes ambientPulse {
+            0%,100% { box-shadow: 0 0 0 0 rgba(232,200,115,0.45), 0 8px 24px rgba(0,0,0,0.35); }
+            50% { box-shadow: 0 0 0 12px rgba(232,200,115,0), 0 8px 24px rgba(0,0,0,0.35); }
+        }
+        @media (prefers-reduced-motion:reduce) { .ambient-toggle.playing { animation: none; } }
+        @media (max-width:520px) {
+            .ambient-toggle { right: 14px; bottom: 14px; width: 46px; height: 46px; }
+            .ambient-icon { font-size: 1.1rem; }
+        }
+        .skip-link { position: absolute; left: 12px; top: -60px; z-index: 400; background: #fff; color: #1a1305; padding: 10px 18px; border-radius: 8px; font-weight: 600; font-size: .85rem; text-decoration: none; transition: top .2s ease; }
+        .skip-link:focus { top: 12px; }
+        .utility-bar {
+            position: fixed; left: 22px; bottom: 22px; z-index: 250;
+            display: flex; gap: 6px; background: rgba(16,22,44,0.85);
+            border: 1px solid rgba(232,200,115,0.3); border-radius: 999px;
+            padding: 6px; backdrop-filter: blur(6px);
+        }
+        .utility-btn {
+            width: 36px; height: 36px; border-radius: 50%; border: none;
+            background: transparent; color: #f1e3c2; font-size: .78rem; font-weight: 700;
+            cursor: pointer; transition: background .15s ease;
+            display: flex; align-items: center; justify-content: center;
+        }
+        .utility-btn:hover { background: rgba(232,200,115,0.25); }
+        .utility-btn-wide { width: auto; padding: 0 12px; }
+        @media (max-width:520px) {
+            .utility-bar { left: 14px; bottom: 14px; }
+            .utility-btn { width: 32px; height: 32px; font-size: .7rem; }
+        }
+        header.nav {
+            position: sticky; top: 0; z-index: 100;
+            background: rgba(8,15,40,0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255,255,255,0.18);
+            box-shadow: 0 4px 18px rgba(0,0,0,0.25);
+        }
+        .nav-inner {
+            max-width: var(--maxw); margin: 0 auto; padding: 9px 24px;
+            display: flex; align-items: center; justify-content: space-between;
+        }
+        .logo { font-family: 'Fraunces', serif; font-size: 1.05rem; font-weight: 700; display: flex; align-items: center; gap: 8px; color: #fff; background: none; border: none; cursor: pointer; padding: 4px 2px; }
+        .logo-mark { flex-shrink: 0; filter: drop-shadow(0 2px 6px rgba(0,0,0,0.15)); width: 24px; height: 21px; }
+        .logo-word {
+            font-family: 'Fraunces', serif;
+            font-optical-sizing: auto;
+            font-style: italic;
+            font-weight: 600;
+            font-size: 1.2rem;
+            letter-spacing: -0.02em;
+            background: linear-gradient(100deg,#fff 0%,#ffe1b0 50%,#fff 100%);
+            background-size: 200% auto;
+            -webkit-background-clip: text; background-clip: text; color: transparent;
+            animation: gradShift 7s ease-in-out infinite;
+        }
+        .hero { position: relative; padding: 48px 24px 55px; overflow: hidden; background: radial-gradient(120% 100% at 50% -10%, #234f9e 0%, #14285e 45%, #060d24 100%); }
+        .hero .eyebrow { color: #fff5e6; }
+        .hero-shader { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0; display: block; mix-blend-mode: normal; opacity: .85; }
+        .hero-inner { position: relative; z-index: 1; max-width: var(--maxw); margin: 0 auto; display: grid; grid-template-columns: 1.1fr .9fr; gap: 56px; align-items: center; }
+        .hero-inner-solo { grid-template-columns: 1fr; text-align: center; max-width: 720px; }
+        .hero-inner-solo .cta-row { justify-content: center; }
+        .hero-inner-solo p.lede { margin-left: auto; margin-right: auto; }
+        .hero-wave { display: block; width: 100%; height: auto; position: relative; margin-top: -6px; z-index: 1; }
+        @media (max-width:860px) { .hero-inner { grid-template-columns: 1fr; } }
+        .eyebrow { text-transform: uppercase; letter-spacing: .14em; font-size: .75rem; color: var(--blue-soft); font-weight: 600; margin-bottom: 18px; display: block; }
+        .hero h1 { font-size: clamp(2.1rem,4.2vw,3.4rem); color: var(--text-light); }
+        .grad-text { background: linear-gradient(100deg, #fff5e6 0%, #ffd166 50%, #fff 100%); background-size: 200% auto; -webkit-background-clip: text; background-clip: text; color: transparent; animation: gradShift 6s ease-in-out infinite; }
+        @keyframes gradShift { 0%,100% { background-position: 0% center; } 50% { background-position: 100% center; } }
+        .hero p.lede { color: rgba(255,255,255,0.88); font-size: 1.08rem; max-width: 46ch; margin-bottom: 32px; }
+        .hero p.lede-note { font-size: .85rem; color: rgba(255,255,255,0.7); font-style: italic; margin-top: -20px; margin-bottom: 28px; }
+        .cta-row { display: flex; gap: 14px; flex-wrap: wrap; }
+        .btn { display: inline-flex; align-items: center; gap: 8px; padding: 13px 24px; border-radius: 999px; text-decoration: none; font-weight: 600; font-size: .95rem; cursor: pointer; border: none; transition: transform .15s ease, background .2s ease; font-family: 'Inter', sans-serif; }
+        .btn:hover { transform: translateY(-2px); }
+        .btn-primary { background: var(--blue); color: #ffffff; }
+        .btn-primary:hover { background: var(--blue-soft); }
+        .btn-outline { background: transparent; color: var(--text-light); border: 1px solid rgba(244,241,234,0.3); }
+        .btn-outline:hover { border-color: var(--text-light); }
+        .reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; }
+        .reveal.visible { opacity: 1; transform: translateY(0); }
+        @media (prefers-reduced-motion:reduce) { .reveal { opacity: 1; transform: none; transition: none; } }
+        section { padding: 88px 0; }
+        .section-light { background: var(--bg-light); color: var(--text-dark); }
+        .section-light h2, .section-light h3 { color: var(--text-dark); }
+        .section-head { max-width: 640px; margin-bottom: 48px; }
+        .section-head .eyebrow { color: var(--blue); }
+        .section-light .eyebrow { color: #2f5fb3; }
+        .section-head p { color: var(--text-dim); }
+        .section-light .section-head p { color: var(--text-dark-dim); }
+        .section-head h2 { font-size: clamp(1.6rem,3vw,2.3rem); }
+        .gallery-grid { display: grid; grid-template-columns: repeat(5,1fr); gap: 12px; }
+        @media (max-width:900px) { .gallery-grid { grid-template-columns: repeat(3,1fr); } }
+        @media (max-width:560px) { .gallery-grid { grid-template-columns: repeat(2,1fr); } }
+        .gallery-grid figure { margin: 0; overflow: hidden; border-radius: 10px; aspect-ratio: 1/1; cursor: pointer; position: relative; background: var(--bg-light-2); }
+        .gallery-grid img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s ease, filter 1.1s ease; filter: blur(9px) saturate(0.25) brightness(0.92); }
+        .gallery-grid figure.visible img { filter: blur(0) saturate(1) brightness(1); }
+        .gallery-grid figure:hover img { transform: scale(1.08); }
+        @media (prefers-reduced-motion:reduce) { .gallery-grid img { filter: none; transition: transform .5s ease; } }
+        .gallery-grid figure.img-failed { background: linear-gradient(135deg, var(--bg-light-2) 0%, #e6d3b4 100%); display: flex; align-items: center; justify-content: center; }
+        .gallery-grid figure.img-failed img { display: none; }
+        .gallery-grid figure.img-failed::before { content: '🌿'; font-size: 1.8rem; opacity: .5; }
+        .gallery-grid figure::after { content: attr(data-label); position: absolute; left: 0; right: 0; bottom: 0; padding: 8px 10px; font-size: .7rem; color: #fff; background: linear-gradient(to top, rgba(0,0,0,.55), transparent); opacity: 0; transition: opacity .25s; }
+        .gallery-grid figure:hover::after { opacity: 1; }
+        .lightbox { position: fixed; inset: 0; background: rgba(10,14,12,0.92); z-index: 200; display: none; align-items: center; justify-content: center; padding: 14px; touch-action: none; }
+        .lightbox.open { display: flex; }
+        .lightbox img { max-height: 94vh; max-width: 96vw; width: auto; height: auto; border-radius: 8px; object-fit: contain; }
+        @media (min-width:760px) { .lightbox { padding: 28px; } .lightbox img { max-height: 92vh; max-width: 90vw; } }
+        .lightbox-close { position: absolute; top: 24px; right: 28px; background: none; border: none; color: #fff; font-size: 2rem; cursor: pointer; line-height: 1; }
+        .lightbox-caption { position: absolute; bottom: 28px; left: 0; right: 0; text-align: center; color: #eee; font-size: .9rem; }
+        .lightbox-hint { position: absolute; bottom: 54px; left: 0; right: 0; text-align: center; color: rgba(255,255,255,0.55); font-size: .72rem; letter-spacing: .03em; }
+        .chat-layout { display: grid; grid-template-columns: 1fr 320px; gap: 32px; }
+        @media (max-width:860px) { .chat-layout { grid-template-columns: 1fr; } }
+        .chat-box { background: var(--bg-dark-2); border: 1px solid rgba(244,241,234,0.08); border-radius: var(--radius); display: flex; flex-direction: column; height: 480px; overflow: hidden; }
+        .chat-head { padding: 16px 20px; border-bottom: 1px solid rgba(244,241,234,0.08); display: flex; align-items: center; gap: 10px; font-size: .9rem; color: var(--text-dim); }
+        .chat-head .live-dot { width: 8px; height: 8px; border-radius: 50%; background: #7a9b7e; box-shadow: 0 0 0 3px rgba(55,198,224,0.28); animation: dotPulse 2.4s ease-in-out infinite; }
+        @keyframes dotPulse { 0%,100% { box-shadow: 0 0 0 3px rgba(55,198,224,0.28); } 50% { box-shadow: 0 0 0 7px rgba(55,198,224,0.08); } }
+        @media (prefers-reduced-motion:reduce) { .chat-head .live-dot { animation: none; } }
+        .chat-messages { flex: 1; overflow-y: auto; padding: 20px; display: flex; flex-direction: column; gap: 12px; }
+        .msg { max-width: 78%; padding: 11px 15px; border-radius: 14px; font-size: .92rem; }
+        .msg.me { align-self: flex-end; background: var(--blue); color: #ffffff; border-bottom-right-radius: 4px; }
+        .msg.other { align-self: flex-start; background: #2a3a33; color: var(--text-light); border-bottom-left-radius: 4px; }
+        .msg.system { align-self: center; color: var(--text-dim); font-size: .78rem; font-style: italic; background: none; }
+        .chat-input-row { display: flex; gap: 10px; padding: 14px; border-top: 1px solid rgba(244,241,234,0.08); }
+        .chat-input-row input { flex: 1; background: #0a1128; border: 1px solid rgba(244,241,234,0.12); border-radius: 999px; padding: 11px 16px; color: var(--text-light); font-family: 'Inter', sans-serif; font-size: .92rem; }
+        .chat-input-row input:focus { border-color: var(--blue); outline: none; }
+        .chat-input-row button { background: var(--blue); color: #ffffff; border: none; border-radius: 999px; padding: 0 20px; font-weight: 600; cursor: pointer; }
+        .chat-side { display: flex; flex-direction: column; gap: 16px; }
+        .chat-card { background: var(--bg-dark-2); border: 1px solid rgba(244,241,234,0.08); border-radius: var(--radius); padding: 20px; font-size: .88rem; color: var(--text-dim); }
+        .chat-card h4 { color: var(--text-light); font-size: .95rem; margin-bottom: 8px; }
+        .chat-card.urgent { border-color: rgba(232,178,61,0.5); background: rgba(232,178,61,0.08); }
+        .chat-card.urgent h4 { color: var(--orange-light); }
+        .chat-card.urgent ul { margin: 8px 0 0; padding-left: 18px; }
+        .chat-card.urgent li { margin-bottom: 6px; }
+        .pill-select { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+        .pill { background: #0a1128; border: 1px solid rgba(244,241,234,0.15); color: var(--text-dim); border-radius: 999px; padding: 7px 13px; font-size: .78rem; cursor: pointer; }
+        .pill.active { background: var(--blue); color: #ffffff; border-color: var(--blue); }
+        .mood-tracker { display: flex; gap: 8px; justify-content: space-between; }
+        .mood-day { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+        .mood-dot { width: 22px; height: 22px; border-radius: 50%; background: #0a1128; border: 1px solid rgba(244,241,234,0.15); }
+        .mood-dot[data-mood="stress"] { background: #3d6fd1; border-color: #3d6fd1; }
+        .mood-dot[data-mood="seul"] { background: #5fa8c9; border-color: #5fa8c9; }
+        .mood-dot[data-mood="colere"] { background: #b3841e; border-color: #b3841e; }
+        .mood-dot[data-mood="fatigue"] { background: #7ea3e8; border-color: #7ea3e8; }
+        .mood-day-label { font-size: .62rem; color: var(--text-dim); text-transform: uppercase; }
+        .bento-section { padding-top: 64px; padding-bottom: 64px; }
+        .bento-grid { display: grid; grid-template-columns: repeat(6, 1fr); grid-auto-rows: 120px; gap: 16px; }
+        .bento-tile { position: relative; overflow: hidden; border-radius: 28px; text-decoration: none; color: inherit; background: rgba(255,255,255,0.6); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border: 1px solid rgba(19,28,63,0.08); box-shadow: 0 8px 30px rgba(19,28,63,0.06); transition: transform .7s cubic-bezier(.19,1,.22,1), box-shadow .5s ease, background .5s ease; }
+        .bento-tile:hover { transform: translateY(-6px) scale(1.015); box-shadow: 0 18px 44px rgba(19,28,63,0.14); }
+        .bento-large { grid-column: span 3; grid-row: span 3; padding: 32px; display: flex; flex-direction: column; justify-content: flex-end; background: linear-gradient(155deg, rgba(255,255,255,0.75) 0%, rgba(219,230,247,0.6) 100%); }
+        @media (max-width:760px) { .bento-grid { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 100px; } .bento-large { grid-column: span 2; grid-row: span 3; } }
+        .bento-tile-text h3 { font-size: 1.25rem; margin: 0 0 6px; color: var(--text-dark); }
+        .bento-tile-text p { font-family: 'Inter', sans-serif; font-size: .86rem; color: var(--text-dark-dim); margin: 0 0 14px; line-height: 1.5; }
+        .bento-cta { font-family: 'Inter', sans-serif; font-size: .82rem; font-weight: 700; color: var(--blue); }
+        .bento-breathe { justify-content: space-between; }
+        .bento-breathe-visual { position: relative; width: 100%; height: 120px; display: flex; align-items: center; justify-content: center; }
+        .bento-breathe-ring { position: absolute; width: 110px; height: 110px; border-radius: 50%; border: 1px dashed rgba(61,111,209,0.35); animation: bentoRingPulse 6s ease-in-out infinite; }
+        .bento-breathe-circle { width: 66px; height: 66px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, var(--cyan) 0%, var(--blue) 75%); box-shadow: 0 0 30px rgba(61,111,209,0.4); animation: bentoBreathePulse 8s ease-in-out infinite; }
+        @keyframes bentoBreathePulse { 0%,100% { transform: scale(1); } 35% { transform: scale(1.35); } 65% { transform: scale(1.35); } }
+        @keyframes bentoRingPulse { 0%,100% { opacity: .5; } 50% { opacity: 1; } }
+        @media (prefers-reduced-motion:reduce) { .bento-breathe-circle, .bento-breathe-ring { animation: none; } }
+        .bento-chat { background: linear-gradient(155deg, rgba(255,255,255,0.75) 0%, rgba(196,214,244,0.55) 100%); }
+        .bento-quick-form { display: flex; gap: 8px; }
+        .bento-quick-input { flex: 1; padding: 12px 16px; border-radius: 999px; border: 1px solid rgba(19,28,63,0.15); background: rgba(255,255,255,0.85); font-family: 'Inter', sans-serif; font-size: .88rem; color: var(--text-dark); }
+        .bento-quick-input:focus { outline: none; border-color: var(--blue); }
+        .bento-quick-send { width: 44px; height: 44px; border-radius: 50%; flex-shrink: 0; background: var(--blue); color: #fff; border: none; font-size: 1.1rem; cursor: pointer; transition: transform .3s ease, background .3s ease; }
+        .bento-quick-send:hover { background: var(--blue-soft); transform: scale(1.08); }
+        .bento-small { grid-column: span 2; grid-row: span 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; text-align: center; padding: 12px; }
+        @media (max-width:760px) { .bento-small { grid-column: span 1; } }
+        .bento-icon { font-size: 1.6rem; }
+        .bento-small-title { font-family: 'Inter', sans-serif; font-weight: 600; font-size: .82rem; color: var(--text-dark); }
+        .community-stats { margin-top: 14px; font-size: .82rem; font-weight: 600; color: var(--orange-deep); display: flex; align-items: center; gap: 8px; }
+        .community-stats::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: #345f78; flex-shrink: 0; }
+        .news-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 20px; flex-wrap: wrap; max-width: none; }
+        .news-meta { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+        .news-meta span { font-size: .8rem; color: var(--text-dark-dim); }
+        .news-refresh-btn { color: var(--text-dark); border-color: rgba(15,32,51,0.25); }
+        .news-tabs { display: flex; gap: 10px; margin-bottom: 28px; flex-wrap: wrap; }
+        .news-tab { background: #fff; border: 1px solid rgba(19,28,63,0.15); color: var(--text-dark-dim); padding: 9px 20px; border-radius: 999px; cursor: pointer; font-weight: 600; font-size: .85rem; font-family: 'Inter', sans-serif; transition: background .15s ease, color .15s ease, border-color .15s ease; }
+        .news-tab:hover { border-color: var(--blue); }
+        .news-tab.active { background: var(--blue); color: #fff; border-color: var(--blue); }
+        .news-panel { display: none; }
+        .news-panel.active { display: block; }
+        .news-refresh-btn:hover { border-color: var(--text-dark); }
+        .news-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; grid-auto-rows: 260px; gap: 18px; }
+        .news-grid > *:first-child { grid-row: span 2; }
+        @media (max-width:900px) { .news-grid { grid-template-columns: 1fr 1fr; grid-auto-rows: 220px; } .news-grid > *:first-child { grid-column: span 2; grid-row: span 1; height: 280px; } }
+        @media (max-width:600px) { .news-grid { grid-template-columns: 1fr; grid-auto-rows: 220px; } .news-grid > *:first-child { grid-column: span 1; } }
+        .news-card { position: relative; border-radius: var(--radius); overflow: hidden; background: var(--bg-light-2); text-decoration: none; color: #fff; display: block; transition: transform .35s ease, box-shadow .35s ease; }
+        .news-card:hover { transform: translateY(-4px); box-shadow: 0 16px 32px rgba(15,32,51,0.18); }
+        .news-card img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .6s ease; }
+        .news-card:hover img { transform: scale(1.06); }
+        .news-card.img-failed { background: linear-gradient(135deg, var(--bg-light-2) 0%, #e6d3b4 100%); }
+        .news-card.img-failed img { display: none; }
+        .news-card::before { content: ''; position: absolute; inset: 0; background: linear-gradient(to top, rgba(10,15,25,0.88) 0%, rgba(10,15,25,0.15) 55%, transparent 80%); }
+        .news-card-body { position: absolute; left: 0; right: 0; bottom: 0; padding: 18px; z-index: 1; }
+        .news-tag { display: inline-block; font-size: .68rem; text-transform: uppercase; letter-spacing: .07em; font-weight: 700; background: var(--blue); color: #fff; padding: 3px 10px; border-radius: 999px; margin-bottom: 8px; }
+        .news-card h4 { color: #fff; font-size: 1.02rem; margin: 0 0 4px 0; line-height: 1.3; }
+        .news-grid > *:first-child h4 { font-size: 1.35rem; }
+        .news-card .news-sub { font-size: .76rem; color: rgba(255,255,255,0.75); }
+        .news-skeleton { background: linear-gradient(100deg, var(--bg-light-2) 30%, #eef4fb 50%, var(--bg-light-2) 70%); background-size: 200% 100%; animation: skeletonShine 1.4s infinite; }
+        @keyframes skeletonShine { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+        .book-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(240px,1fr)); gap: 20px; }
+        .book-card { background: #fff; border-radius: var(--radius); padding: 22px; border: 1px solid rgba(32,36,31,0.08); display: flex; flex-direction: column; gap: 10px; transition: box-shadow .2s,transform .2s; }
+        .book-card:hover { box-shadow: 0 12px 28px rgba(32,36,31,0.1); transform: translateY(-3px); }
+        .book-filters { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 28px; }
+        .book-filter-pill { background: #fff; border: 1px solid rgba(19,28,63,0.15); color: var(--text-dark-dim); border-radius: 999px; padding: 9px 18px; font-size: .85rem; font-weight: 600; cursor: pointer; transition: background .15s ease, color .15s ease, border-color .15s ease; font-family: 'Inter', sans-serif; }
+        .book-filter-pill:hover { border-color: var(--blue); }
+        .book-filter-pill.active { background: var(--blue); color: #fff; border-color: var(--blue); }
+        .book-tag { align-self: flex-start; font-size: .68rem; text-transform: uppercase; letter-spacing: .08em; background: var(--blue); color: #fff; padding: 4px 10px; border-radius: 999px; font-weight: 600; }
+        .book-card h4 { font-size: 1.05rem; margin: 0; }
+        .book-card .author { font-size: .85rem; color: var(--text-dark-dim); }
+        .book-card p.desc { font-size: .87rem; color: var(--text-dark-dim); flex: 1; }
+        .book-card a.read { font-size: .85rem; font-weight: 600; color: #2f5fb3; text-decoration: none; display: inline-flex; align-items: center; gap: 5px; }
+        .book-card a.read:hover { text-decoration: underline; }
+        .book-note { margin-top: 28px; font-size: .85rem; color: var(--text-dark-dim); }
+        .game-tabs { display: flex; gap: 10px; margin-bottom: 32px; flex-wrap: wrap; }
+        .game-tab { background: var(--bg-dark-2); border: 1px solid rgba(244,241,234,0.1); color: var(--text-dim); padding: 10px 20px; border-radius: 999px; cursor: pointer; font-weight: 600; font-size: .88rem; }
+        .game-tab.active { background: var(--blue); color: #ffffff; border-color: var(--blue); }
+        .game-panel { display: none; }
+        .game-panel.active { display: block; }
+        .game-shell { background: var(--bg-dark-2); border: 1px solid rgba(244,241,234,0.08); border-radius: var(--radius); padding: 32px; display: flex; flex-direction: column; align-items: center; gap: 20px; }
+        .game-status { font-family: 'Fraunces', serif; font-size: 1.2rem; color: var(--text-light); }
+        .ttt-board { display: grid; grid-template-columns: repeat(3,90px); grid-template-rows: repeat(3,90px); gap: 8px; }
+        .ttt-cell { background: #0a1128; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-family: 'Fraunces', serif; font-size: 2.4rem; cursor: pointer; color: var(--blue-soft); border: 1px solid rgba(244,241,234,0.08); }
+        .ttt-cell:hover { background: #131c3f; }
+        .memory-board { display: grid; grid-template-columns: repeat(5,74px); gap: 10px; }
+        @media (max-width:520px) { .memory-board { grid-template-columns: repeat(4,64px); } .ttt-board { grid-template-columns: repeat(3,74px); grid-template-rows: repeat(3,74px); } }
+        .memory-card { width: 74px; height: 74px; border-radius: 10px; background: var(--cyan-deep); display: flex; align-items: center; justify-content: center; font-size: 1.7rem; cursor: pointer; transition: transform .3s; user-select: none; }
+        .memory-card.flipped, .memory-card.matched { background: #0a1128; }
+        .memory-card.matched { opacity: .45; cursor: default; }
+        .c4-board { display: grid; grid-template-columns: repeat(7,54px); grid-template-rows: repeat(6,54px); gap: 6px; background: #0a1128; padding: 10px; border-radius: 12px; }
+        .c4-cell { width: 54px; height: 54px; border-radius: 50%; background: #131c3f; cursor: pointer; }
+        .c4-cell.p1 { background: var(--blue); }
+        .c4-cell.p2 { background: var(--cyan); }
+        .game-reset { background: transparent; border: 1px solid rgba(244,241,234,0.25); color: var(--text-light); padding: 9px 18px; border-radius: 999px; cursor: pointer; font-size: .85rem; font-weight: 600; }
+        .game-reset:hover { border-color: var(--text-light); }
+        .game-hint { font-size: .82rem; color: var(--text-dim); text-align: center; max-width: 46ch; }
+        .collab-banner { background: rgba(232,178,61,0.1); border: 1px solid rgba(232,178,61,0.35); color: var(--text-dark-dim); font-size: .85rem; padding: 14px 18px; border-radius: 10px; margin-bottom: 24px; line-height: 1.6; }
+        .collab-banner strong { color: var(--orange-deep); }
+        .draw-shell { background: #fff; border: 1px solid rgba(15,32,51,0.08); border-radius: var(--radius); padding: 24px; display: flex; flex-direction: column; gap: 18px; box-shadow: 0 20px 50px rgba(15,32,51,0.08); }
+        .draw-toolbar { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+        .draw-colors { display: flex; gap: 8px; flex-wrap: wrap; }
+        .draw-swatch { width: 28px; height: 28px; border-radius: 50%; cursor: pointer; border: 2px solid transparent; transition: transform .15s ease; }
+        .draw-swatch:hover { transform: scale(1.15); }
+        .draw-swatch.active { border-color: var(--text-dark); transform: scale(1.15); }
+        .draw-size-label { display: flex; align-items: center; gap: 8px; font-size: .85rem; color: var(--text-dark-dim); font-weight: 600; }
+        .draw-actions { display: flex; gap: 10px; margin-left: auto; flex-wrap: wrap; }
+        .draw-actions .game-reset { color: var(--text-dark); border-color: rgba(15,32,51,0.25); }
+        .draw-actions .game-reset:hover { border-color: var(--text-dark); }
+        .draw-canvas-wrap { border-radius: 10px; overflow: hidden; border: 1px solid rgba(15,32,51,0.1); background: linear-gradient(45deg,#f4f4f4 25%,transparent 25%), linear-gradient(-45deg,#f4f4f4 25%,transparent 25%), linear-gradient(45deg,transparent 75%,#f4f4f4 75%), linear-gradient(-45deg,transparent 75%,#f4f4f4 75%); background-size: 20px 20px; background-position: 0 0,0 10px,10px -10px,-10px 0px; }
+        #drawCanvas { width: 100%; height: 75vh; min-height: 480px; max-height: 980px; display: block; touch-action: none; cursor: crosshair; }
+        @media (max-width:760px) { #drawCanvas { height: 60vh; min-height: 360px; } }
+        .section-astral { background: radial-gradient(ellipse 120% 80% at 50% 0%, #1a2748 0%, #070b16 68%); position: relative; overflow: hidden; }
+        .section-astral::before { content: ''; position: absolute; inset: 0; pointer-events: none; opacity: .5; background-image: radial-gradient(1.5px 1.5px at 10% 20%, #fff 100%, transparent), radial-gradient(1px 1px at 25% 65%, #fff 100%, transparent), radial-gradient(1.5px 1.5px at 40% 12%, #fff 100%, transparent), radial-gradient(1px 1px at 55% 78%, #fff 100%, transparent), radial-gradient(1.5px 1.5px at 70% 30%, #fff 100%, transparent), radial-gradient(1px 1px at 85% 55%, #fff 100%, transparent), radial-gradient(1.5px 1.5px at 92% 15%, #fff 100%, transparent), radial-gradient(1px 1px at 15% 88%, #fff 100%, transparent), radial-gradient(1.5px 1.5px at 60% 92%, #fff 100%, transparent), radial-gradient(1px 1px at 35% 40%, #fff 100%, transparent); background-repeat: no-repeat; }
+        .astral-head { max-width: 640px; margin: 0 auto 48px; text-align: center; position: relative; z-index: 1; }
+        .astral-head .eyebrow { color: #e8c873; }
+        .astral-head h2 { color: #fff; }
+        .astral-head p { color: rgba(255,255,255,0.68); }
+        .astral-clock-wrap { position: relative; width: 460px; height: 460px; margin: 0 auto; z-index: 1; }
+        @media (max-width:860px) { .astral-clock-wrap { width: 360px; height: 360px; } }
+        @media (max-width:520px) { .astral-clock-wrap { width: 290px; height: 290px; } }
+        .astral-stars { position: absolute; inset: 0; border-radius: 50%; overflow: hidden; pointer-events: none; z-index: 1; }
+        .astral-ring { position: absolute; inset: 0; border-radius: 50%; border: 1px solid rgba(232,200,115,0.35); }
+        .astral-ring-outer { animation: spin 90s linear infinite; }
+        .astral-ring-outer::before, .astral-ring-outer::after { content: ''; }
+        .astral-ring-inner { inset: 34px; border-color: rgba(232,200,115,0.2); animation: spinReverse 70s linear infinite; }
+        @media (max-width:520px) { .astral-ring-inner { inset: 22px; } }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        @keyframes spinReverse { to { transform: rotate(-360deg); } }
+        @media (prefers-reduced-motion:reduce) { .astral-ring-outer, .astral-ring-inner { animation: none; } }
+        .astral-tick { position: absolute; top: 50%; left: 50%; width: 2px; height: 9px; background: rgba(232,200,115,0.55); transform-origin: 50% 228px; }
+        @media (max-width:860px) { .astral-tick { transform-origin: 50% 178px; } }
+        @media (max-width:520px) { .astral-tick { transform-origin: 50% 143px; } }
+        .astral-center { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 108px; height: 108px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #2a3a63 0%, #10162c 75%); border: 1px solid rgba(232,200,115,0.4); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; box-shadow: 0 0 40px rgba(232,200,115,0.18); text-align: center; z-index: 2; }
+        @media (max-width:520px) { .astral-center { width: 82px; height: 82px; } }
+        .astral-center-icon { color: #e8c873; font-size: 1.1rem; }
+        .astral-center-label { font-family: 'Fraunces', serif; font-style: italic; font-weight: 600; font-size: .85rem; color: #fff; letter-spacing: -0.01em; }
+        @media (max-width:520px) { .astral-center-label { font-size: .7rem; } }
+        .astral-items { position: absolute; inset: 0; z-index: 3; }
+        .astral-item { position: absolute; top: 50%; left: 50%; padding: 8px 16px; border-radius: 999px; font-size: .8rem; font-weight: 600; white-space: nowrap; background: rgba(16,22,44,0.85); color: #f1e3c2; text-decoration: none; border: 1px solid rgba(232,200,115,0.45); transition: background .2s ease, color .2s ease, border-color .2s ease, transform .2s ease; }
+        .astral-item:hover, .astral-item:focus-visible { background: #e8c873; color: #1a1305; border-color: #e8c873; }
+        @media (max-width:520px) { .astral-item { padding: 5px 10px; font-size: .62rem; } }
+        .section-proverb { padding: 64px 0; background: linear-gradient(180deg, #070b16 0%, #0a1128 100%); }
+        .proverb-card { max-width: 680px; margin: 0 auto; text-align: center; }
+        .proverb-eyebrow { text-transform: uppercase; letter-spacing: .14em; font-size: .72rem; color: #e8c873; font-weight: 600; margin-bottom: 18px; display: block; }
+        .proverb-text { font-family: 'Fraunces', serif; font-style: italic; font-weight: 500; font-size: clamp(1.3rem,3vw,1.7rem); color: #f8f1e6; line-height: 1.5; margin: 0 0 16px; }
+        .proverb-text::before { content: '« '; }
+        .proverb-text::after { content: ' »'; }
+        .proverb-date { font-size: .78rem; color: rgba(248,241,230,0.5); text-transform: capitalize; }
+        .challenge-card { max-width: 640px; margin: 0 auto; text-align: center; }
+        .challenge-title { font-size: clamp(1.3rem,3vw,1.7rem); color: #f8f1e6; margin: 0 0 12px; }
+        .challenge-intro { font-family: 'Inter', sans-serif; font-size: .92rem; color: rgba(248,241,230,0.65); margin: 0 0 28px; line-height: 1.6; }
+        .challenge-text { font-family: 'Fraunces', serif; font-style: italic; font-weight: 500; font-size: clamp(1.15rem,2.6vw,1.4rem); color: var(--orange-light); line-height: 1.5; margin: 0 0 30px; min-height: 2.4em; }
+        .challenge-btn { display: inline-flex; }
+        .breathe-shell { display: flex; flex-direction: column; align-items: center; gap: 22px; max-width: 480px; margin: 0 auto; text-align: center; }
+        .breathe-visual { position: relative; width: 220px; height: 220px; display: flex; align-items: center; justify-content: center; }
+        .breathe-ring-outer { position: absolute; inset: 0; border-radius: 50%; border: 1px dashed rgba(61,111,209,0.35); }
+        .breathe-circle-guided { width: 130px; height: 130px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, var(--cyan) 0%, var(--blue) 75%); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; box-shadow: 0 0 50px rgba(61,111,209,0.35); transform: scale(1); transition: transform 0.6s ease-in-out; will-change: transform; }
+        .breathe-phase { font-family: 'Fraunces', serif; font-style: italic; font-weight: 600; color: #fff; font-size: 1.05rem; }
+        .breathe-count { font-family: 'Inter', sans-serif; color: rgba(255,255,255,0.85); font-size: .82rem; }
+        .breathe-cycles { font-size: .82rem; color: var(--text-dark-dim); min-height: 1.2em; }
+        @media (prefers-reduced-motion:reduce) { .breathe-circle-guided { transition: none; } }
+        footer { background: #1c140f; padding: 48px 0 32px; color: var(--text-dim); font-size: .85rem; }
+        .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 36px; padding-bottom: 28px; border-bottom: 1px solid rgba(248,241,230,0.1); }
+        @media (max-width:700px) { .footer-grid { grid-template-columns: 1fr; gap: 28px; } }
+        .footer-about p { margin: 14px 0 0; line-height: 1.6; max-width: 32ch; }
+        .footer-social { display: inline-flex; align-items: center; gap: 8px; margin-top: 18px; color: var(--text-dim); text-decoration: none; font-size: .85rem; font-weight: 600; transition: color .15s ease; }
+        .footer-social:hover { color: var(--orange-light); }
+        .footer-links h4 { color: var(--text-light); font-size: .85rem; text-transform: uppercase; letter-spacing: .06em; margin: 0 0 14px; font-weight: 600; }
+        .footer-links ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+        .footer-links a { color: var(--text-dim); text-decoration: none; transition: color .15s ease; }
+        .footer-links a:hover { color: var(--orange-light); text-decoration: underline; }
+        footer .legal { margin-top: 20px; font-size: .75rem; color: #8291b8; line-height: 1.7; }
+        footer .legal p { margin: 0 0 8px; }
+        footer .legal p:last-child { margin-bottom: 0; }
+
+        /* ---------- Styles du jeu de course (isolés) ---------- */
+        #race-game-container {
+            position: relative;
+            width: 100%;
+            height: 500px;
+            margin: 0 auto;
+            overflow: hidden;
+            background: #000;
+            border-radius: 16px;
+            touch-action: manipulation;
+            -webkit-user-select: none;
+            user-select: none;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            font-family: 'Segoe UI', sans-serif;
+        }
+        #race-game-container canvas {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        #race-game-container .race-ui-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            pointer-events: none;
+            z-index: 10;
+            padding: 12px 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        #race-game-container .race-ui-panel {
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255,255,255,0.25);
+            border-radius: 12px;
+            padding: 8px 14px;
+            color: #fff;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+        #race-game-container .race-ui-label {
+            font-size: 0.6rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #ff6b6b;
+        }
+        #race-game-container .race-ui-value {
+            font-size: 1.3rem;
+            font-weight: 900;
+        }
+        #race-game-container .race-ui-value.race-position { color: #ffd700; }
+        #race-game-container .race-ui-value.race-lap { color: #4ecdc4; }
+        #race-game-container .race-game-over-overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(0,0,0,0.8);
+            backdrop-filter: blur(8px);
+            z-index: 20;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+        #race-game-container .race-game-over-overlay.active { opacity: 1; pointer-events: all; }
+        #race-game-container .race-finish-box {
+            background: rgba(20,20,40,0.95);
+            border: 2px solid rgba(255,215,0,0.7);
+            border-radius: 20px;
+            padding: 20px 25px;
+            text-align: center;
+            color: #fff;
+            max-width: 400px;
+            width: 90%;
+        }
+        #race-game-container .race-finish-box h2 {
+            font-size: 1.8rem;
+            color: #ffd700;
+            margin-bottom: 10px;
+        }
+        #race-game-container .race-podium {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            gap: 10px;
+            margin: 15px 0;
+        }
+        #race-game-container .race-podium-item {
+            background: rgba(255,255,255,0.1);
+            border-radius: 12px;
+            padding: 10px 12px;
+            min-width: 70px;
+            text-align: center;
+        }
+        #race-game-container .race-podium-item.first { background: linear-gradient(45deg, #ffd700, #ffaa00); color: #000; transform: scale(1.05); }
+        #race-game-container .race-podium-item.second { background: linear-gradient(45deg, #c0c0c0, #a0a0a0); color: #000; }
+        #race-game-container .race-podium-item.third { background: linear-gradient(45deg, #cd7f32, #b87333); color: #000; }
+        #race-game-container .race-btn-restart {
+            background: #ff4444;
+            color: #fff;
+            border: none;
+            padding: 12px 30px;
+            font-size: 1rem;
+            font-weight: 700;
+            border-radius: 25px;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+        #race-game-container .race-btn-restart:hover { background: #ff5555; transform: scale(1.05); }
+        #race-game-container .race-start-hint {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-shadow: 0 0 20px black;
+            font-size: 1.1rem;
+            text-align: center;
+            z-index: 25;
+            pointer-events: none;
+            transition: opacity 0.5s;
+        }
+        #race-game-container .race-start-hint.fade { opacity: 0; }
+        #race-game-container .race-mobile-controls {
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 15;
+            display: none;
+            gap: 10px;
+            align-items: center;
+        }
+        @media (max-width: 768px) {
+            #race-game-container .race-mobile-controls { display: flex; }
+        }
+        #race-game-container .race-ctrl-btn {
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.2);
+            backdrop-filter: blur(6px);
+            border: 2px solid rgba(255,255,255,0.3);
+            color: #fff;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            pointer-events: all;
+        }
+    </style>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>
+</head>
+<body>
+    <a href="#main" class="skip-link">Aller au contenu principal</a>
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <button id="ambientToggle" class="ambient-toggle" aria-label="Activer le son d'ambiance" aria-pressed="false" type="button">
+        <span class="ambient-icon">☾</span>
+    </button>
+
+    <div class="utility-bar" role="group" aria-label="Préférences d'affichage">
+        <button id="fontDecrease" class="utility-btn" type="button" aria-label="Réduire la taille du texte">A−</button>
+        <button id="fontIncrease" class="utility-btn" type="button" aria-label="Augmenter la taille du texte">A+</button>
+        <button id="shareBtn" class="utility-btn" type="button" aria-label="Partager le site">⤴</button>
+        <button id="langToggle" class="utility-btn utility-btn-wide" type="button" aria-label="Switch to English">EN</button>
+    </div>
+
+    <header class="nav">
+        <div class="nav-inner">
+            <a class="logo" href="#" aria-label="Retour en haut">
+                <svg class="logo-mark" width="30" height="26" viewBox="0 0 30 26" fill="none" aria-hidden="true">
+                    <circle cx="11" cy="13" r="10" fill="#fff" opacity="0.92"/>
+                    <circle cx="19" cy="13" r="10" fill="#ffd166" style="mix-blend-mode:multiply"/>
+                </svg>
+                <span class="logo-word">Ancrage</span>
+            </a>
+        </div>
+    </header>
+
+    <section class="hero" id="heroSection">
+        <span id="main" style="position:absolute;"></span>
+        <canvas id="heroShader" class="hero-shader"></canvas>
+        <div class="hero-inner hero-inner-solo">
+            <div>
+                <span class="eyebrow">Bienvenue, on est content que tu sois là</span>
+                <h1>Prendre soin de sa tête, <span class="grad-text">sans avoir à en faire un sujet.</span></h1>
+                <p class="lede">Ancrage, c'est un coin tranquille pensé pour les hommes, partout au Canada. Viens souffler devant de belles images, dire ce qui pèse dans un coin discret, piger un bon livre gratuit, ou juste décrocher la tête avec un jeu.</p>
+                <p class="lede lede-note">Fait d'abord pour les Canadiens, mais ouvert à tous les hommes, peu importe d'où tu viens.</p>
+                <div class="cta-row">
+                    <a href="#chat" class="btn btn-primary">Viens jaser, anonymement</a>
+                    <a href="#galerie" class="btn btn-outline">Voir la galerie</a>
+                </div>
+            </div>
+        </div>
+        <svg class="hero-wave" viewBox="0 0 1440 110" preserveAspectRatio="none">
+            <path fill="#a9c3ea" opacity="0.55" d="M0,50 C180,10 360,90 600,55 C840,20 1020,85 1260,45 C1350,28 1410,35 1440,42 L1440,110 L0,110 Z"></path>
+            <path fill="#c3d6f0" opacity="0.75" d="M0,60 C220,95 420,20 700,50 C900,72 1100,15 1440,58 L1440,110 L0,110 Z"></path>
+            <path fill="#eef3fb" d="M0,72 C260,35 500,95 760,64 C1000,36 1220,92 1440,58 L1440,110 L0,110 Z"></path>
+        </svg>
+    </section>
+
+    <!-- Galerie -->
+    <section id="galerie" class="section-light">
+        <div class="wrap">
+            <div class="section-head reveal">
+                <span class="eyebrow">Galerie</span>
+                <h2>Cinquante images pour respirer un peu</h2>
+                <p>Prends une pause, laisse tes yeux se poser.</p>
+            </div>
+            <div class="gallery-grid" id="galleryGrid"></div>
+        </div>
+    </section>
+
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <img id="lightboxImg" alt="">
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+        <div class="lightbox-hint">Défile vers le bas pour la photo suivante</div>
+    </div>
+
+    <!-- Chat -->
+    <section id="chat">
+        <div class="wrap">
+            <div class="section-head reveal">
+                <span class="eyebrow">Chat privé et anonyme</span>
+                <h2>Dis ce que t'as sur le cœur, sans nom, sans compte</h2>
+                <p>Aucune inscription, aucune donnée conservée.</p>
+            </div>
+            <div class="chat-layout">
+                <div class="chat-box">
+                    <div class="chat-head"><span class="live-dot"></span> Anonyme · connecté en local</div>
+                    <div class="chat-messages" id="chatMessages">
+                        <div class="msg system">Tu discutes de façon anonyme. Rien n'est envoyé ni enregistré sur un serveur.</div>
+                        <div class="msg other">Salut. Je suis là pour t'écouter. Qu'est-ce qui te trotte dans la tête aujourd'hui ?</div>
+                    </div>
+                    <div class="chat-input-row">
+                        <input type="text" id="chatInput" placeholder="Écris ici, personne ne va te juger…" maxlength="400">
+                        <button id="chatSend">Envoyer</button>
+                    </div>
+                </div>
+                <div class="chat-side">
+                    <div class="chat-card reveal">
+                        <h4>Comment ça marche</h4>
+                        <p>Tes messages restent dans ton navigateur. Rien n'est stocké ni partagé.</p>
+                    </div>
+                    <div class="chat-card urgent reveal">
+                        <h4>Besoin d'aide tout de suite ?</h4>
+                        <p>Service canadien de prévention du suicide : <strong>988</strong> (appel ou texto 24h/24).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Jeux -->
+    <section id="jeux">
+        <div class="wrap">
+            <div class="section-head reveal">
+                <span class="eyebrow">Jeux</span>
+                <h2>Quatre jeux gratuits, sans compte</h2>
+                <p>À deux sur le même écran, ou tout seul contre ta mémoire.</p>
+            </div>
+            <div class="game-tabs">
+                <button class="game-tab active" data-target="panel-ttt">Morpion</button>
+                <button class="game-tab" data-target="panel-memory">Mémory</button>
+                <button class="game-tab" data-target="panel-c4">Puissance 4</button>
+                <button class="game-tab" data-target="panel-race">Course</button>
+            </div>
+
+            <div class="game-panel active" id="panel-ttt">
+                <div class="game-shell reveal">
+                    <div class="game-status" id="tttStatus">Au tour de X</div>
+                    <div class="ttt-board" id="tttBoard"></div>
+                    <button class="game-reset" id="tttReset">Recommencer</button>
+                    <p class="game-hint">À deux joueurs, chacun son tour sur le même appareil.</p>
+                </div>
+            </div>
+
+            <div class="game-panel" id="panel-memory">
+                <div class="game-shell reveal">
+                    <div class="game-status" id="memoryStatus">Paires trouvées : 0 / 8</div>
+                    <div class="memory-board" id="memoryBoard"></div>
+                    <button class="game-reset" id="memoryReset">Mélanger à nouveau</button>
+                    <p class="game-hint">Retrouve les paires. Seul ou à plusieurs.</p>
+                </div>
+            </div>
+
+            <div class="game-panel" id="panel-c4">
+                <div class="game-shell reveal">
+                    <div class="game-status" id="c4Status">Au tour du joueur bleu</div>
+                    <div class="c4-board" id="c4Board"></div>
+                    <button class="game-reset" id="c4Reset">Recommencer</button>
+                    <p class="game-hint">Clique une colonne pour y laisser tomber un jeton. Aligne-en 4.</p>
+                </div>
+            </div>
+
+            <!-- Nouveau panneau Course -->
+            <div class="game-panel" id="panel-race">
+                <div class="game-shell reveal">
+                    <div id="race-game-container"></div>
+                    <p class="game-hint">Pilotez une Mazda CX-3 rouge sur l’autoroute. 2 tours, visez le podium !</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrap footer-grid">
+            <div class="footer-about">
+                <div class="logo"><svg class="logo-mark" width="30" height="26" viewBox="0 0 30 26"><circle cx="11" cy="13" r="10" fill="#fff" opacity="0.92"/><circle cx="19" cy="13" r="10" fill="#ffd166" style="mix-blend-mode:multiply"/></svg><span class="logo-word">Ancrage</span></div>
+                <p>Un espace gratuit et sans compte, fait avec soin pour aider les hommes à souffler un peu.</p>
+                <a href="https://www.instagram.com/ancrage.club" target="_blank" rel="noopener" class="footer-social">@ancrage.club sur Instagram</a>
+            </div>
+            <div class="footer-links">
+                <h4>Santé mentale (hommes)</h4>
+                <ul>
+                    <li><a href="https://headsupguys.org/fr/" target="_blank" rel="noopener">HeadsUpGuys</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Pour décrocher autrement</h4>
+                <ul>
+                    <li><a href="https://lichess.org/learn" target="_blank" rel="noopener">Apprendre les échecs</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="wrap legal">
+            <p>Ce site est un outil de bien-être et ne remplace pas un avis médical. En cas d'urgence, composez le 988 ou le 911.</p>
+            <p>Mention légale : Ancrage est un site indépendant à but non lucratif.</p>
+        </div>
+    </footer>
+
+    <script>
+        // ==================== LANGUE ====================
+        let currentLang = 'fr';
+        function applyLanguage(lang) {
+            currentLang = lang;
+            document.documentElement.lang = lang;
+            document.getElementById('langToggle').textContent = lang === 'fr' ? 'EN' : 'FR';
+            try { localStorage.setItem('ancrage-lang', lang); } catch(e) {}
+        }
+        document.getElementById('langToggle').addEventListener('click', () => applyLanguage(currentLang === 'fr' ? 'en' : 'fr'));
+        applyLanguage(currentLang);
+
+        // ==================== SCROLL REVEAL ====================
+        const revealObserver = new IntersectionObserver(entries => {
+            entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); revealObserver.unobserve(entry.target); } });
+        }, { threshold: 0.15 });
+        document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+        // ==================== SCROLL PROGRESS ====================
+        window.addEventListener('scroll', () => {
+            const h = document.documentElement, max = h.scrollHeight - h.clientHeight;
+            document.getElementById('scrollProgress').style.width = max > 0 ? (h.scrollTop / max * 100) + '%' : '0%';
+        }, { passive: true });
+
+        // ==================== AMBIANCE SONORE ====================
+        (function() {
+            const btn = document.getElementById('ambientToggle');
+            let audioCtx = null, masterGain = null, isPlaying = false;
+            function buildAmbient() {
+                audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+                masterGain = audioCtx.createGain();
+                masterGain.gain.value = 0.0001;
+                masterGain.connect(audioCtx.destination);
+                const osc = audioCtx.createOscillator();
+                osc.type = 'sine';
+                osc.frequency.value = 110;
+                const gain = audioCtx.createGain();
+                gain.gain.value = 0.05;
+                osc.connect(gain);
+                gain.connect(masterGain);
+                osc.start();
+            }
+            btn.addEventListener('click', () => {
+                if (!audioCtx) buildAmbient();
+                if (audioCtx.state === 'suspended') audioCtx.resume();
+                isPlaying = !isPlaying;
+                masterGain.gain.linearRampToValueAtTime(isPlaying ? 0.3 : 0.0001, audioCtx.currentTime + 1);
+                btn.classList.toggle('playing', isPlaying);
+            });
+        })();
+
+        // ==================== GALERIE ====================
+        const galleryGrid = document.getElementById('galleryGrid');
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightboxImg');
+        let galleryImages = [];
+        for (let i = 1; i <= 50; i++) galleryImages.push(`https://picsum.photos/id/${i + 10}/400/400`);
+        function renderGallery() {
+            galleryGrid.innerHTML = '';
+            galleryImages.forEach((src, idx) => {
+                const fig = document.createElement('figure');
+                fig.setAttribute('data-label', `Image ${idx + 1}`);
+                const img = document.createElement('img');
+                img.src = src;
+                img.alt = `Photo ${idx + 1}`;
+                img.loading = 'lazy';
+                img.onerror = () => { fig.classList.add('img-failed'); };
+                fig.appendChild(img);
+                fig.addEventListener('click', () => {
+                    lightboxImg.src = src;
+                    lightbox.classList.add('open');
+                });
+                galleryGrid.appendChild(fig);
+                setTimeout(() => fig.classList.add('visible'), idx * 30);
+            });
+        }
+        renderGallery();
+        document.getElementById('lightboxClose').addEventListener('click', () => lightbox.classList.remove('open'));
+        lightbox.addEventListener('click', (e) => { if (e.target === lightbox) lightbox.classList.remove('open'); });
+
+        // ==================== CHAT PRIVÉ ====================
+        const chatMessages = document.getElementById('chatMessages');
+        const chatInput = document.getElementById('chatInput');
+        document.getElementById('chatSend').addEventListener('click', () => {
+            const text = chatInput.value.trim();
+            if (!text) return;
+            chatMessages.innerHTML += `<div class="msg me">${text}</div>`;
+            chatInput.value = '';
+            setTimeout(() => {
+                const responses = ["Je comprends.", "C'est intéressant.", "Merci d'avoir partagé.", "Je suis là pour écouter.", "Continue si tu veux."];
+                chatMessages.innerHTML += `<div class="msg other">${responses[Math.floor(Math.random() * responses.length)]}</div>`;
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            }, 500);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        });
+
+        // ==================== JEUX (Morpion, Memory, Puissance 4) ====================
+        (function initTicTacToe() {
+            const board = document.getElementById('tttBoard');
+            const status = document.getElementById('tttStatus');
+            let cells = Array(9).fill(null);
+            let turn = 'X';
+            function render() {
+                board.innerHTML = '';
+                cells.forEach((v, i) => {
+                    const cell = document.createElement('div');
+                    cell.className = 'ttt-cell';
+                    cell.textContent = v || '';
+                    cell.addEventListener('click', () => {
+                        if (cells[i] || checkWinner()) return;
+                        cells[i] = turn;
+                        turn = turn === 'X' ? 'O' : 'X';
+                        status.textContent = `Au tour de ${turn}`;
+                        const w = checkWinner();
+                        if (w) status.textContent = `${w} a gagné !`;
+                        render();
+                    });
+                    board.appendChild(cell);
+                });
+            }
+            function checkWinner() {
+                const wins = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]];
+                for (const [a,b,c] of wins) if (cells[a] && cells[a] === cells[b] && cells[a] === cells[c]) return cells[a];
+                return null;
+            }
+            document.getElementById('tttReset').addEventListener('click', () => {
+                cells = Array(9).fill(null);
+                turn = 'X';
+                status.textContent = 'Au tour de X';
+                render();
+            });
+            render();
+        })();
+
+        (function initMemory() {
+            const board = document.getElementById('memoryBoard');
+            const status = document.getElementById('memoryStatus');
+            const symbols = ['🌸','🌿','🍁','🌙','⭐','🌈','🍀','💧'];
+            let cards = [...symbols, ...symbols].sort(() => Math.random() - 0.5);
+            let flipped = [], matched = 0;
+            function render() {
+                board.innerHTML = '';
+                cards.forEach((s, i) => {
+                    const card = document.createElement('div');
+                    card.className = 'memory-card';
+                    if (flipped.includes(i) || matched.includes(i)) card.textContent = s;
+                    card.classList.toggle('flipped', flipped.includes(i) || matched.includes(i));
+                    card.classList.toggle('matched', matched.includes(i));
+                    card.addEventListener('click', () => {
+                        if (flipped.length === 2 || flipped.includes(i) || matched.includes(i)) return;
+                        flipped.push(i);
+                        if (flipped.length === 2) {
+                            if (cards[flipped[0]] === cards[flipped[1]]) {
+                                matched.push(...flipped);
+                                flipped = [];
+                            } else {
+                                setTimeout(() => { flipped = []; render(); }, 800);
+                            }
+                        }
+                        status.textContent = `Paires trouvées : ${matched.length/2} / 8`;
+                        render();
+                    });
+                    board.appendChild(card);
+                });
+            }
+            document.getElementById('memoryReset').addEventListener('click', () => {
+                cards = [...symbols, ...symbols].sort(() => Math.random() - 0.5);
+                flipped = []; matched = [];
+                status.textContent = 'Paires trouvées : 0 / 8';
+                render();
+            });
+            render();
+        })();
+
+        (function initConnectFour() {
+            const board = document.getElementById('c4Board');
+            const status = document.getElementById('c4Status');
+            const rows = 6, cols = 7;
+            let grid = Array(rows).fill().map(() => Array(cols).fill(null));
+            let player = 1;
+            function render() {
+                board.innerHTML = '';
+                for (let r = 0; r < rows; r++) {
+                    for (let c = 0; c < cols; c++) {
+                        const cell = document.createElement('div');
+                        cell.className = 'c4-cell';
+                        if (grid[r][c] === 1) cell.classList.add('p1');
+                        else if (grid[r][c] === 2) cell.classList.add('p2');
+                        cell.addEventListener('click', () => {
+                            for (let r2 = rows - 1; r2 >= 0; r2--) {
+                                if (!grid[r2][c]) {
+                                    grid[r2][c] = player;
+                                    if (checkWin(grid, r2, c, player)) {
+                                        status.textContent = `Joueur ${player === 1 ? 'bleu' : 'cyan'} gagne !`;
+                                    } else {
+                                        player = player === 1 ? 2 : 1;
+                                        status.textContent = `Au tour du joueur ${player === 1 ? 'bleu' : 'cyan'}`;
+                                    }
+                                    render();
+                                    return;
+                                }
+                            }
+                        });
+                        board.appendChild(cell);
+                    }
+                }
+            }
+            function checkWin(g, r, c, p) {
+                const dirs = [[0,1],[1,0],[1,1],[1,-1]];
+                for (const [dr, dc] of dirs) {
+                    let count = 1;
+                    for (let i = 1; i < 4; i++) { const nr = r+dr*i, nc = c+dc*i; if (nr>=0&&nr<rows&&nc>=0&&nc<cols&&g[nr][nc]===p) count++; else break; }
+                    for (let i = 1; i < 4; i++) { const nr = r-dr*i, nc = c-dc*i; if (nr>=0&&nr<rows&&nc>=0&&nc<cols&&g[nr][nc]===p) count++; else break; }
+                    if (count >= 4) return true;
+                }
+                return false;
+            }
+            document.getElementById('c4Reset').addEventListener('click', () => {
+                grid = Array(rows).fill().map(() => Array(cols).fill(null));
+                player = 1;
+                status.textContent = 'Au tour du joueur bleu';
+                render();
+            });
+            render();
+        })();
+
+        // ==================== GESTION DES ONGLETS JEUX ====================
+        document.querySelectorAll('.game-tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.game-tab').forEach(t => t.classList.remove('active'));
+                document.querySelectorAll('.game-panel').forEach(p => p.classList.remove('active'));
+                tab.classList.add('active');
+                document.getElementById(tab.dataset.target).classList.add('active');
+            });
+        });
+    </script>
+
+    <!-- ==================== SCRIPT DU JEU DE COURSE (THREE.JS) ==================== -->
+    <script type="importmap">
+        { "imports": { "three": "https://unpkg.com/three@0.157.0/build/three.module.js" } }
+    </script>
+    <script type="module">
+        import * as THREE from 'three';
+
+        const raceContainer = document.getElementById('race-game-container');
+        if (!raceContainer) throw new Error('Conteneur #race-game-container manquant');
+
+        raceContainer.innerHTML = `
+            <canvas id="race-canvas"></canvas>
+            <div class="race-ui-overlay">
+                <div class="race-ui-panel"><div class="race-ui-label">🏆 Position</div><div class="race-ui-value race-position" id="race-position-display">-</div></div>
+                <div class="race-ui-panel"><div class="race-ui-label">🔄 Tour</div><div class="race-ui-value race-lap" id="race-lap-display">1/2</div></div>
+                <div class="race-ui-panel"><div class="race-ui-label">⚡ Vitesse</div><div class="race-ui-value" id="race-speed-display">0 km/h</div></div>
+            </div>
+            <div class="race-game-over-overlay" id="race-game-over-overlay">
+                <div class="race-finish-box" id="race-finish-box"></div>
+            </div>
+            <div class="race-start-hint" id="race-start-hint">🎮 Flèches pour conduire<br><small>Appuyez sur une touche</small></div>
+            <div class="race-mobile-controls">
+                <button class="race-ctrl-btn" id="race-btn-left">⬅</button>
+                <button class="race-ctrl-btn" id="race-btn-brake" style="background:rgba(255,80,80,0.3);">🛑</button>
+                <button class="race-ctrl-btn" id="race-btn-gas" style="background:rgba(80,200,120,0.3);">🔥</button>
+                <button class="race-ctrl-btn" id="race-btn-right">➡</button>
+            </div>
+        `;
+
+        const canvas = raceContainer.querySelector('#race-canvas');
+        const positionDisplay = raceContainer.querySelector('#race-position-display');
+        const lapDisplay = raceContainer.querySelector('#race-lap-display');
+        const speedDisplay = raceContainer.querySelector('#race-speed-display');
+        const gameOverOverlay = raceContainer.querySelector('#race-game-over-overlay');
+        const finishBox = raceContainer.querySelector('#race-finish-box');
+        const startHint = raceContainer.querySelector('#race-start-hint');
+        const btnLeft = raceContainer.querySelector('#race-btn-left');
+        const btnRight = raceContainer.querySelector('#race-btn-right');
+        const btnBrake = raceContainer.querySelector('#race-btn-brake');
+        const btnGas = raceContainer.querySelector('#race-btn-gas');
+
+        const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+        renderer.shadowMap.enabled = true;
+        renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+        renderer.toneMapping = THREE.ACESFilmicToneMapping;
+        renderer.toneMappingExposure = 1.2;
+
+        const scene = new THREE.Scene();
+        scene.background = new THREE.Color(0x87CEEB);
+        scene.fog = new THREE.Fog(0x9dd5f0, 80, 350);
+
+        const camera = new THREE.PerspectiveCamera(65, raceContainer.clientWidth / raceContainer.clientHeight, 0.5, 400);
+        camera.position.set(0, 5.5, 11);
+        camera.lookAt(0, 0.3, -15);
+
+        scene.add(new THREE.AmbientLight(0xffffff, 1.0));
+        const sun = new THREE.DirectionalLight(0xfff5e8, 3.5);
+        sun.position.set(40, 50, 30);
+        sun.castShadow = true;
+        sun.shadow.mapSize.set(1024, 1024);
+        sun.shadow.camera.near = 0.5;
+        sun.shadow.camera.far = 250;
+        sun.shadow.camera.left = -40;
+        sun.shadow.camera.right = 40;
+        sun.shadow.camera.top = 40;
+        sun.shadow.camera.bottom = -5;
+        scene.add(sun);
+        scene.add(new THREE.HemisphereLight(0x87CEEB, 0x3d7a3d, 0.7));
+
+        const ROAD_WIDTH = 13;
+        const LANE_WIDTH = ROAD_WIDTH / 3;
+        const LANE_POSITIONS = [-LANE_WIDTH, 0, LANE_WIDTH];
+        const LAP_DISTANCE = 3000;
+        const TOTAL_LAPS = 2;
+        const MAX_SPEED = 95;
+        const BASE_SPEED = 30;
+
+        let worldSpeed = BASE_SPEED;
+        let playerDistance = 0;
+        let playerLap = 1;
+        let playerLaneIndex = 1;
+        let playerTargetX = LANE_POSITIONS[1];
+        let playerCurrentX = playerTargetX;
+        let raceFinished = false;
+        let gameStarted = false;
+        let collisionCooldown = 0;
+        const racers = [];
+        let playerRacer = null;
+
+        const SEGMENT_LENGTH = 25;
+        const NUM_SEGMENTS = 14;
+        const RECYCLE_THRESHOLD = 18;
+        const roadMaterial = new THREE.MeshStandardMaterial({ color: 0x3a3a3f, roughness: 0.75 });
+        const markingMaterial = new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.4, emissive: 0x222222 });
+        const grassMaterial = new THREE.MeshStandardMaterial({ color: 0x4a8c3f, roughness: 0.9 });
+
+        const roadSegments = [];
+        const laneMarkings1 = [];
+        const laneMarkings2 = [];
+        const decorPool = [];
+        const allMovingObjects = [];
+
+        function createRoadSegment(zPos) {
+            const g = new THREE.Group();
+            const road = new THREE.Mesh(new THREE.PlaneGeometry(ROAD_WIDTH, SEGMENT_LENGTH), roadMaterial);
+            road.rotation.x = -Math.PI/2;
+            road.position.z = -SEGMENT_LENGTH/2;
+            road.receiveShadow = true;
+            g.add(road);
+            const shoulderGeo = new THREE.PlaneGeometry(3, SEGMENT_LENGTH);
+            const shoulderMat = new THREE.MeshStandardMaterial({ color: 0x555555, roughness: 0.9 });
+            const sL = new THREE.Mesh(shoulderGeo, shoulderMat);
+            sL.rotation.x = -Math.PI/2; sL.position.set(-ROAD_WIDTH/2-1.5, 0.01, -SEGMENT_LENGTH/2); sL.receiveShadow = true; g.add(sL);
+            const sR = new THREE.Mesh(shoulderGeo, shoulderMat);
+            sR.rotation.x = -Math.PI/2; sR.position.set(ROAD_WIDTH/2+1.5, 0.01, -SEGMENT_LENGTH/2); sR.receiveShadow = true; g.add(sR);
+            const grassGeo = new THREE.PlaneGeometry(18, SEGMENT_LENGTH);
+            const gL = new THREE.Mesh(grassGeo, grassMaterial);
+            gL.rotation.x = -Math.PI/2; gL.position.set(-ROAD_WIDTH/2-10.5, -0.02, -SEGMENT_LENGTH/2); gL.receiveShadow = true; g.add(gL);
+            const gR = new THREE.Mesh(grassGeo, grassMaterial);
+            gR.rotation.x = -Math.PI/2; gR.position.set(ROAD_WIDTH/2+10.5, -0.02, -SEGMENT_LENGTH/2); gR.receiveShadow = true; g.add(gR);
+            g.position.z = zPos;
+            return g;
+        }
+
+        function createMarking(zPos, xOff) {
+            const g = new THREE.Group();
+            const dashLen = 3.5, gap = 4.5, total = dashLen+gap;
+            const num = Math.floor(SEGMENT_LENGTH/total)+1;
+            for (let i=0; i<num; i++) {
+                const dash = new THREE.Mesh(new THREE.PlaneGeometry(0.2, dashLen), markingMaterial);
+                dash.rotation.x = -Math.PI/2;
+                dash.position.set(xOff, 0.03, -i*total - dashLen/2);
+                dash.receiveShadow = true;
+                g.add(dash);
+            }
+            g.position.z = zPos;
+            return g;
+        }
+
+        for (let i=0; i<NUM_SEGMENTS; i++) {
+            const z = -i*SEGMENT_LENGTH;
+            const seg = createRoadSegment(z); scene.add(seg); roadSegments.push(seg); allMovingObjects.push(seg);
+            const m1 = createMarking(z, -LANE_WIDTH/2); scene.add(m1); laneMarkings1.push(m1); allMovingObjects.push(m1);
+            const m2 = createMarking(z, LANE_WIDTH/2); scene.add(m2); laneMarkings2.push(m2); allMovingObjects.push(m2);
+        }
+
+        function createTree(x, z) {
+            const g = new THREE.Group();
+            const trunk = new THREE.Mesh(new THREE.CylinderGeometry(0.2, 0.3, 2.5, 8), new THREE.MeshStandardMaterial({ color: 0x8B5A2B, roughness: 0.9 }));
+            trunk.position.y = 1.25; trunk.castShadow = trunk.receiveShadow = true; g.add(trunk);
+            const foliageMat = new THREE.MeshStandardMaterial({ color: 0x2d7a2d, roughness: 0.7 });
+            const f1 = new THREE.Mesh(new THREE.ConeGeometry(1.3, 3.5, 10), foliageMat);
+            f1.position.y = 3.2; f1.castShadow = true; g.add(f1);
+            const f2 = new THREE.Mesh(new THREE.ConeGeometry(1.0, 2.5, 10), foliageMat);
+            f2.position.y = 4.5; f2.castShadow = true; g.add(f2);
+            g.position.set(x, 0, z);
+            return g;
+        }
+        function createBush(x, z) {
+            const g = new THREE.Group();
+            const bush = new THREE.Mesh(new THREE.SphereGeometry(0.8, 8, 6), new THREE.MeshStandardMaterial({ color: 0x3d8b37, roughness: 0.8 }));
+            bush.position.y = 0.5; bush.scale.set(1, 0.7, 1); bush.castShadow = bush.receiveShadow = true; g.add(bush);
+            g.position.set(x, 0, z);
+            return g;
+        }
+        function createGuardrail(x, z) {
+            const g = new THREE.Group();
+            const post = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.1, 1.2, 6), new THREE.MeshStandardMaterial({ color: 0x888888, roughness: 0.5, metalness: 0.7 }));
+            post.position.y = 0.6; post.castShadow = true; g.add(post);
+            const rail = new THREE.Mesh(new THREE.BoxGeometry(0.12, 0.25, 3), new THREE.MeshStandardMaterial({ color: 0xcccccc, roughness: 0.4, metalness: 0.8 }));
+            rail.position.y = 0.95; rail.castShadow = true; g.add(rail);
+            g.position.set(x, 0, z);
+            return g;
+        }
+        function createMountain(x, z, h, w) {
+            const g = new THREE.Group();
+            const m = new THREE.Mesh(new THREE.ConeGeometry(w, h, 8, 3), new THREE.MeshStandardMaterial({ color: 0x6b8e6b, roughness: 0.8 }));
+            m.position.y = h/2; m.castShadow = m.receiveShadow = true; g.add(m);
+            const snow = new THREE.Mesh(new THREE.ConeGeometry(w*0.35, h*0.2, 8, 3), new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.3 }));
+            snow.position.y = h*0.85; g.add(snow);
+            g.position.set(x, -0.5, z);
+            return g;
+        }
+
+        for (let i=0; i<80; i++) {
+            const side = Math.random()>0.5?1:-1;
+            const z = -Math.random()*350;
+            const xBase = side*(ROAD_WIDTH/2+4+Math.random()*30);
+            let obj;
+            const r = Math.random();
+            if (r<0.4) obj = createTree(xBase, z);
+            else if (r<0.7) obj = createBush(xBase, z);
+            else if (r<0.9) obj = createGuardrail(side*(ROAD_WIDTH/2+1.8), z);
+            else obj = createMountain(xBase, z-60, 15+Math.random()*35, 8+Math.random()*20);
+            scene.add(obj); decorPool.push(obj); allMovingObjects.push(obj);
+        }
+        for (let i=0; i<12; i++) {
+            const m = createMountain((Math.random()-0.5)*100, -150-Math.random()*200, 20+Math.random()*50, 10+Math.random()*25);
+            scene.add(m); decorPool.push(m); allMovingObjects.push(m);
+        }
+
+        const playerCar = new THREE.Group();
+        const bodyMat = new THREE.MeshStandardMaterial({ color: 0xcc1111, roughness: 0.25, metalness: 0.55 });
+        const body = new THREE.Mesh(new THREE.BoxGeometry(1.9, 0.85, 3.9), bodyMat);
+        body.position.y = 0.6; body.castShadow = body.receiveShadow = true; playerCar.add(body);
+        const lowerBody = new THREE.Mesh(new THREE.BoxGeometry(1.95, 0.35, 3.95), new THREE.MeshStandardMaterial({ color: 0x1a1a1a, roughness: 0.6 }));
+        lowerBody.position.y = 0.18; lowerBody.castShadow = true; playerCar.add(lowerBody);
+        const cabin = new THREE.Mesh(new THREE.BoxGeometry(1.75, 0.5, 1.9), new THREE.MeshStandardMaterial({ color: 0x222233, roughness: 0.15, metalness: 0.7 }));
+        cabin.position.set(0, 1.05, -0.1); cabin.castShadow = true; playerCar.add(cabin);
+        const windshield = new THREE.Mesh(new THREE.PlaneGeometry(1.65, 0.55), new THREE.MeshStandardMaterial({ color: 0x88bbee, roughness: 0.1, emissive: 0x334455, emissiveIntensity: 0.4 }));
+        windshield.position.set(0, 1.05, 0.85); windshield.rotation.x = -0.5; playerCar.add(windshield);
+        const rearWindow = new THREE.Mesh(new THREE.PlaneGeometry(1.55, 0.45), windshield.material);
+        rearWindow.position.set(0, 1.05, -0.95); rearWindow.rotation.x = 0.5; playerCar.add(rearWindow);
+        const hlMat = new THREE.MeshStandardMaterial({ color: 0xffffcc, roughness: 0.1, emissive: 0xffffaa, emissiveIntensity: 0.8 });
+        playerCar.add(new THREE.Mesh(new THREE.SphereGeometry(0.18, 8, 8), hlMat)).position.set(0.55, 0.55, 1.9);
+        playerCar.add(new THREE.Mesh(new THREE.SphereGeometry(0.18, 8, 8), hlMat)).position.set(-0.55, 0.55, 1.9);
+        const tlMat = new THREE.MeshStandardMaterial({ color: 0xff0000, roughness: 0.1, emissive: 0xff0000, emissiveIntensity: 1.2 });
+        playerCar.add(new THREE.Mesh(new THREE.SphereGeometry(0.15, 8, 8), tlMat)).position.set(0.55, 0.55, -1.85);
+        playerCar.add(new THREE.Mesh(new THREE.SphereGeometry(0.15, 8, 8), tlMat)).position.set(-0.55, 0.55, -1.85);
+        function createWheel(x, z) {
+            const g = new THREE.Group();
+            const tire = new THREE.Mesh(new THREE.CylinderGeometry(0.32, 0.32, 0.3, 20), new THREE.MeshStandardMaterial({ color: 0x111111, roughness: 0.8 }));
+            tire.rotation.z = Math.PI/2; tire.castShadow = true; g.add(tire);
+            const rim = new THREE.Mesh(new THREE.CylinderGeometry(0.2, 0.2, 0.31, 12), new THREE.MeshStandardMaterial({ color: 0x888888, roughness: 0.3, metalness: 0.8 }));
+            rim.rotation.z = Math.PI/2; g.add(rim);
+            g.position.set(x, 0.3, z);
+            return g;
+        }
+        playerCar.add(createWheel(0.85, 1.1)); playerCar.add(createWheel(-0.85, 1.1));
+        playerCar.add(createWheel(0.85, -1.2)); playerCar.add(createWheel(-0.85, -1.2));
+        playerCar.add(new THREE.Mesh(new THREE.CylinderGeometry(0.03, 0.03, 0.5, 6), new THREE.MeshStandardMaterial({ color: 0x333333 }))).position.set(0, 1.35, -0.7);
+        playerCar.position.set(playerCurrentX, 0.05, 0);
+        playerCar.castShadow = true; playerCar.receiveShadow = true;
+        scene.add(playerCar);
+
+        const enemyColors = [0x2266cc, 0xeeeeee, 0x111111, 0xff8800, 0x44aa44, 0x8888cc, 0xccaa44, 0x555577];
+        const enemyMeshes = [];
+        function createEnemyMesh() {
+            const g = new THREE.Group();
+            const color = enemyColors[Math.floor(Math.random() * enemyColors.length)];
+            const eBody = new THREE.Mesh(new THREE.BoxGeometry(1.7, 0.7, 3.5), new THREE.MeshStandardMaterial({ color, roughness: 0.3, metalness: 0.5 }));
+            eBody.position.y = 0.55; eBody.castShadow = eBody.receiveShadow = true; g.add(eBody);
+            const eCabin = new THREE.Mesh(new THREE.BoxGeometry(1.55, 0.4, 1.6), new THREE.MeshStandardMaterial({ color: 0x1a1a2a, roughness: 0.2, metalness: 0.6 }));
+            eCabin.position.set(0, 0.9, -0.05); eCabin.castShadow = true; g.add(eCabin);
+            const tireMat = new THREE.MeshStandardMaterial({ color: 0x111111, roughness: 0.8 });
+            [[0.75,0.95],[-0.75,0.95],[0.75,-1.05],[-0.75,-1.05]].forEach(([x,z]) => {
+                const t = new THREE.Mesh(new THREE.CylinderGeometry(0.28, 0.28, 0.25, 12), tireMat);
+                t.rotation.z = Math.PI/2; t.position.set(x, 0.25, z); t.castShadow = true; g.add(t);
+            });
+            const tailMat = new THREE.MeshStandardMaterial({ color: 0xff0000, roughness: 0.2, emissive: 0xff0000, emissiveIntensity: 0.6 });
+            g.add(new THREE.Mesh(new THREE.SphereGeometry(0.12, 6, 6), tailMat)).position.set(0.5, 0.5, -1.7);
+            g.add(new THREE.Mesh(new THREE.SphereGeometry(0.12, 6, 6), tailMat)).position.set(-0.5, 0.5, -1.7);
+            g.castShadow = true; g.receiveShadow = true;
+            return g;
+        }
+
+        let audioCtx = null, masterGain = null, engineOsc = null, engineGain = null, engineFilter = null;
+        function initAudio() {
+            if (audioCtx) return;
+            try {
+                audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+                masterGain = audioCtx.createGain();
+                masterGain.gain.value = 0.18;
+                masterGain.connect(audioCtx.destination);
+                engineOsc = audioCtx.createOscillator();
+                engineOsc.type = 'sawtooth';
+                engineOsc.frequency.value = 40;
+                engineFilter = audioCtx.createBiquadFilter();
+                engineFilter.type = 'lowpass';
+                engineFilter.frequency.value = 200;
+                engineGain = audioCtx.createGain();
+                engineGain.gain.value = 0.35;
+                engineOsc.connect(engineFilter);
+                engineFilter.connect(engineGain);
+                engineGain.connect(masterGain);
+                engineOsc.start();
+                startMusic();
+            } catch(e) {}
+        }
+        function updateEngineSound() {
+            if (!engineOsc) return;
+            const ratio = worldSpeed / MAX_SPEED;
+            engineOsc.frequency.setTargetAtTime(35 + ratio * 180, audioCtx.currentTime, 0.1);
+            engineFilter.frequency.setTargetAtTime(60 + ratio * 600, audioCtx.currentTime, 0.1);
+            engineGain.gain.setTargetAtTime(0.25 + ratio * 0.5, audioCtx.currentTime, 0.1);
+        }
+        function playCollisionSound() {
+            if (!audioCtx) return;
+            const buf = audioCtx.createBuffer(1, audioCtx.sampleRate * 0.3, audioCtx.sampleRate);
+            const data = buf.getChannelData(0);
+            for (let i = 0; i < data.length; i++) {
+                const t = i / audioCtx.sampleRate;
+                data[i] = (Math.random() * 2 - 1) * Math.exp(-t * 15) * 0.7 + Math.sin(t * 80) * Math.exp(-t * 10) * 0.5;
+            }
+            const src = audioCtx.createBufferSource(); src.buffer = buf;
+            const gain = audioCtx.createGain(); gain.gain.value = 0.5;
+            src.connect(gain); gain.connect(audioCtx.destination); src.start();
+        }
+        function startMusic() {
+            if (!audioCtx) return;
+            const tempo = 128, beatDur = 60 / tempo;
+            let nextTime = audioCtx.currentTime, beatIdx = 0;
+            function sched() {
+                while (nextTime < audioCtx.currentTime + 0.2) {
+                    const t = nextTime, bar = beatIdx % 8;
+                    if (bar === 0 || bar === 4) kick(t, 0.5);
+                    if (bar === 2 || bar === 6) snare(t, 0.4);
+                    if (beatIdx % 2 === 0) hihat(t, 0.15);
+                    if (bar % 2 === 0) bass(t, [55,55,65,65,73,73,65,65][bar], 0.35, beatDur*0.9);
+                    if (bar % 2 === 0) synth(t, [220,330,440,330,294,440,330,294][bar], 0.12, beatDur*0.6);
+                    nextTime += beatDur/2; beatIdx++;
+                }
+            }
+            function kick(t,vol){ const o=audioCtx.createOscillator(),g=audioCtx.createGain(); o.type='sine'; o.frequency.setValueAtTime(150,t); o.frequency.exponentialRampToValueAtTime(30,t+0.12); g.gain.setValueAtTime(vol,t); g.gain.exponentialRampToValueAtTime(0.001,t+0.25); o.connect(g); g.connect(masterGain); o.start(t); o.stop(t+0.3); }
+            function snare(t,vol){ const buf=audioCtx.createBuffer(1,audioCtx.sampleRate*0.2,audioCtx.sampleRate),d=buf.getChannelData(0); for(let i=0;i<d.length;i++){const tt=i/audioCtx.sampleRate; d[i]=(Math.random()*2-1)*Math.exp(-tt*20)*0.6+Math.sin(tt*200)*Math.exp(-tt*15)*0.4;} const s=audioCtx.createBufferSource(); s.buffer=buf; const g=audioCtx.createGain(); g.gain.setValueAtTime(vol,t); g.gain.exponentialRampToValueAtTime(0.001,t+0.2); const f=audioCtx.createBiquadFilter(); f.type='highpass'; f.frequency.value=500; s.connect(f); f.connect(g); g.connect(masterGain); s.start(t); s.stop(t+0.25); }
+            function hihat(t,vol){ const buf=audioCtx.createBuffer(1,audioCtx.sampleRate*0.08,audioCtx.sampleRate),d=buf.getChannelData(0); for(let i=0;i<d.length;i++) d[i]=(Math.random()*2-1)*Math.exp(-i/audioCtx.sampleRate*50)*0.5; const s=audioCtx.createBufferSource(); s.buffer=buf; const g=audioCtx.createGain(); g.gain.setValueAtTime(vol,t); g.gain.exponentialRampToValueAtTime(0.001,t+0.06); const f=audioCtx.createBiquadFilter(); f.type='highpass'; f.frequency.value=3000; s.connect(f); f.connect(g); g.connect(masterGain); s.start(t); s.stop(t+0.1); }
+            function bass(t,freq,vol,dur){ const o=audioCtx.createOscillator(),g=audioCtx.createGain(); o.type='square'; o.frequency.value=freq; g.gain.setValueAtTime(vol,t); g.gain.exponentialRampToValueAtTime(0.001,t+dur); const f=audioCtx.createBiquadFilter(); f.type='lowpass'; f.frequency.value=300; o.connect(f); f.connect(g); g.connect(masterGain); o.start(t); o.stop(t+dur+0.05); }
+            function synth(t,freq,vol,dur){ const o=audioCtx.createOscillator(),g=audioCtx.createGain(); o.type='triangle'; o.frequency.value=freq; g.gain.setValueAtTime(vol,t); g.gain.exponentialRampToValueAtTime(0.001,t+dur); o.connect(g); g.connect(masterGain); o.start(t); o.stop(t+dur+0.05); }
+            setInterval(()=>{ if(audioCtx&&audioCtx.state==='running') sched(); },100);
+            sched();
+        }
+
+        function startGame() {
+            if (gameStarted && !raceFinished) return;
+            initAudio();
+            if (audioCtx && audioCtx.state === 'suspended') audioCtx.resume();
+            gameStarted = true;
+            raceFinished = false;
+            worldSpeed = BASE_SPEED;
+            playerDistance = 0;
+            playerLap = 1;
+            playerLaneIndex = 1;
+            playerTargetX = LANE_POSITIONS[1];
+            playerCurrentX = playerTargetX;
+            collisionCooldown = 0;
+            playerCar.position.x = playerCurrentX;
+            gameOverOverlay.classList.remove('active');
+            startHint.classList.add('fade');
+            setTimeout(() => startHint.style.display = 'none', 600);
+            racers.length = 0;
+            playerRacer = { name: 'Vous', distance: 0, speed: BASE_SPEED, laneIndex: 1, mesh: playerCar, targetLane: 1, currentX: playerCurrentX, isPlayer: true };
+            racers.push(playerRacer);
+            enemyMeshes.forEach(m => scene.remove(m));
+            enemyMeshes.length = 0;
+            for (let i = 0; i < 7; i++) {
+                const mesh = createEnemyMesh();
+                mesh.visible = false;
+                scene.add(mesh);
+                enemyMeshes.push(mesh);
+                const racer = {
+                    name: `Pilote ${i+1}`,
+                    distance: Math.random() * 15,
+                    speed: 28 + Math.random() * 22,
+                    laneIndex: Math.floor(Math.random() * 3),
+                    mesh: mesh,
+                    targetLane: Math.floor(Math.random() * 3),
+                    currentX: LANE_POSITIONS[Math.floor(Math.random() * 3)],
+                    isPlayer: false,
+                    changeTimer: Math.random() * 3
+                };
+                racers.push(racer);
+            }
+            updateUI();
+        }
+
+        function finishRace() {
+            if (raceFinished) return;
+            raceFinished = true;
+            const sorted = [...racers].sort((a,b) => b.distance - a.distance);
+            const podium = sorted.slice(0,3);
+            let html = '<h2>🏁 Course terminée !</h2><div class="race-podium">';
+            const positions = ['first','second','third'];
+            podium.forEach((r, idx) => {
+                const name = r.isPlayer ? 'VOUS' : r.name;
+                html += `<div class="race-podium-item ${positions[idx]}"><span style="font-size:2rem;">${idx+1}</span><br>${name}<br><small>${Math.floor(r.distance)} m</small></div>`;
+            });
+            html += '</div>';
+            const playerPos = sorted.findIndex(r => r.isPlayer) + 1;
+            html += `<p style="color:#ffd700;">Votre position : ${playerPos} / ${racers.length}</p>`;
+            html += '<button class="race-btn-restart" id="race-btn-restart-finish">🔄 Rejouer</button>';
+            finishBox.innerHTML = html;
+            gameOverOverlay.classList.add('active');
+            document.getElementById('race-btn-restart-finish')?.addEventListener('click', restartGame);
+        }
+
+        function restartGame() {
+            raceFinished = false;
+            gameOverOverlay.classList.remove('active');
+            startGame();
+        }
+
+        function updateUI() {
+            speedDisplay.textContent = Math.floor(worldSpeed * 3.2) + ' km/h';
+            lapDisplay.textContent = playerLap + '/' + TOTAL_LAPS;
+            if (racers.length > 1) {
+                const sorted = [...racers].sort((a,b) => b.distance - a.distance);
+                const pos = sorted.findIndex(r => r.isPlayer) + 1;
+                positionDisplay.textContent = pos + '/' + racers.length;
+            } else {
+                positionDisplay.textContent = '-';
+            }
+        }
+
+        function handleCollision() {
+            if (collisionCooldown > 0 || raceFinished) return;
+            collisionCooldown = 0.8;
+            worldSpeed *= 0.55;
+            playCollisionSound();
+            playerDistance = Math.max(0, playerDistance - 3);
+        }
+
+        const keys = {};
+        window.addEventListener('keydown', e => {
+            keys[e.key] = true;
+            if (!gameStarted) startGame();
+            if (raceFinished && (e.key === ' ' || e.key === 'Enter')) restartGame();
+            e.preventDefault();
+        });
+        window.addEventListener('keyup', e => { keys[e.key] = false; });
+        function setupMobile(btn, key) {
+            btn.addEventListener('pointerdown', e => { e.preventDefault(); keys[key] = true; if (!gameStarted) startGame(); });
+            btn.addEventListener('pointerup', e => { e.preventDefault(); keys[key] = false; });
+            btn.addEventListener('pointerleave', () => { keys[key] = false; });
+        }
+        setupMobile(btnLeft, 'ArrowLeft');
+        setupMobile(btnRight, 'ArrowRight');
+        setupMobile(btnBrake, 'ArrowDown');
+        setupMobile(btnGas, 'ArrowUp');
+        canvas.addEventListener('click', () => { if (!gameStarted) startGame(); if (raceFinished) restartGame(); });
+
+        const clock = new THREE.Clock();
+        let lastUIUpdate = 0;
+        function animate(ts) {
+            requestAnimationFrame(animate);
+            const dt = Math.min(clock.getDelta(), 0.12);
+            if (raceContainer.clientWidth !== renderer.domElement.clientWidth || raceContainer.clientHeight !== renderer.domElement.clientHeight) {
+                renderer.setSize(raceContainer.clientWidth, raceContainer.clientHeight);
+                camera.aspect = raceContainer.clientWidth / raceContainer.clientHeight;
+                camera.updateProjectionMatrix();
+            }
+            if (gameStarted && !raceFinished) {
+                collisionCooldown = Math.max(0, collisionCooldown - dt);
+                if (keys['ArrowLeft'] || keys['a'] || keys['q']) { if (playerLaneIndex > 0) { playerLaneIndex--; playerTargetX = LANE_POSITIONS[playerLaneIndex]; } keys['ArrowLeft'] = false; }
+                if (keys['ArrowRight'] || keys['d']) { if (playerLaneIndex < 2) { playerLaneIndex++; playerTargetX = LANE_POSITIONS[playerLaneIndex]; } keys['ArrowRight'] = false; }
+                if (keys['ArrowUp'] || keys['w'] || keys['z']) worldSpeed += 25 * dt;
+                else if (keys['ArrowDown'] || keys['s']) worldSpeed -= 40 * dt;
+                else { if (worldSpeed < BASE_SPEED + 5) worldSpeed += 4 * dt; else if (worldSpeed > BASE_SPEED + 10) worldSpeed -= 2 * dt; }
+                worldSpeed = Math.max(12, Math.min(MAX_SPEED, worldSpeed));
+                playerCurrentX += (playerTargetX - playerCurrentX) * Math.min(dt * 9, 1);
+                playerCar.position.x = playerCurrentX;
+                playerCar.rotation.z = -(playerTargetX - playerCurrentX) * 0.08;
+                playerCar.rotation.z += (0 - playerCar.rotation.z) * dt * 6;
+                playerDistance += worldSpeed * dt;
+                if (playerDistance >= playerLap * LAP_DISTANCE) {
+                    playerLap++;
+                    if (playerLap > TOTAL_LAPS) { playerLap = TOTAL_LAPS; playerDistance = TOTAL_LAPS * LAP_DISTANCE; finishRace(); }
+                }
+                for (const r of racers) {
+                    if (r.isPlayer) { r.distance = playerDistance; r.laneIndex = playerLaneIndex; r.currentX = playerCurrentX; }
+                    else {
+                        r.distance += r.speed * dt;
+                        r.changeTimer -= dt;
+                        if (r.changeTimer <= 0) { r.changeTimer = 1.5 + Math.random() * 3; if (Math.random() < 0.5) r.targetLane = (r.laneIndex + (Math.random() < 0.5 ? 1 : -1) + 3) % 3; }
+                        r.laneIndex += (r.targetLane - r.laneIndex) * dt * 3;
+                        r.currentX = LANE_POSITIONS[Math.round(r.laneIndex)];
+                        const zScene = playerDistance - r.distance;
+                        r.mesh.position.set(r.currentX, 0.05, zScene);
+                        r.mesh.visible = (zScene > -130 && zScene < 80);
+                    }
+                }
+                if (collisionCooldown <= 0) {
+                    const px = playerCurrentX;
+                    for (const r of racers) {
+                        if (r.isPlayer || !r.mesh.visible) continue;
+                        const ex = r.currentX, ez = playerDistance - r.distance;
+                        if (Math.abs(px - ex) < 1.15 && Math.abs(0 - ez) < 2.3) { handleCollision(); break; }
+                    }
+                }
+                const move = worldSpeed * dt;
+                for (const obj of allMovingObjects) obj.position.z += move;
+                for (let i = 0; i < roadSegments.length; i++) {
+                    if (roadSegments[i].position.z > RECYCLE_THRESHOLD) {
+                        roadSegments[i].position.z -= NUM_SEGMENTS * SEGMENT_LENGTH;
+                        laneMarkings1[i].position.z = roadSegments[i].position.z;
+                        laneMarkings2[i].position.z = roadSegments[i].position.z;
+                    }
+                }
+                for (const d of decorPool) {
+                    if (d.position.z > RECYCLE_THRESHOLD + 15) { d.position.z -= 450; d.position.x = (Math.random() > 0.5 ? 1 : -1) * (ROAD_WIDTH / 2 + 5 + Math.random() * 35); }
+                }
+                updateEngineSound();
+                if (ts - lastUIUpdate > 250) { updateUI(); lastUIUpdate = ts; }
+            }
+            camera.position.x += (playerCurrentX * 0.35 - camera.position.x) * dt * 4;
+            camera.lookAt(playerCurrentX * 0.5, 0.5, -15);
+            renderer.render(scene, camera);
+        }
+        updateUI();
+        requestAnimationFrame(animate);
+    </script>
+</body>
+</html>
